@@ -1,24 +1,4 @@
 -- hello fellers
-local script_key = getgenv and getgenv().script_key or _G.script_key or script_key
-
-if script_key then
-    local success, result = pcall(function()
-        local userId = tostring(game.Players.LocalPlayer.UserId)
-        
-        if not isfolder("WattyHub") then
-            makefolder("WattyHub")
-        end
-        
-        local filePath = "WattyHub/" .. userId .. ".key"
-        
-        Writefile(filePath, script_key)
-        
-    end)
-    
-    if not success then
-    end
-end
-
 if not game:IsLoaded() then return end
 local cheatEngineMode = false
 if (not getgenv) or (getgenv and type(getgenv) ~= "function") then cheatEngineMode = true end
