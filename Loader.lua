@@ -105,7 +105,7 @@ local function Createnotsupportedgui()
     closeButton.BackgroundColor3 = Color3.fromRGB(255, 85, 85)
     closeButton.BorderSizePixel = 0
     closeButton.Text = "X"
-    closeButton.TextColor3 = Color3.white
+    closeButton.TextColor3 = Color3.fromRGB(255, 255, 255) -- Fixed: Was Color3.white
     closeButton.TextScaled = true
     closeButton.Font = Enum.Font.GothamBold
     closeButton.Parent = frame
@@ -142,7 +142,7 @@ local function Createnotsupportedgui()
     copyButton.BackgroundColor3 = Color3.fromRGB(88, 101, 242)
     copyButton.BorderSizePixel = 0
     copyButton.Text = "Copy Link"
-    copyButton.TextColor3 = Color3.white
+    copyButton.TextColor3 = Color3.fromRGB(255, 255, 255) -- Fixed: Was Color3.white
     copyButton.TextScaled = true
     copyButton.Font = Enum.Font.GothamBold
     copyButton.Parent = frame
