@@ -183,9 +183,12 @@ end
 
 local currentPlaceId = game.PlaceId
 local gameConfigurations = {
-    [126509999114328] = "https://raw.githubusercontent.com/bleh2rich/99NightsInTheForest/refs/heads/main/Loader.lua",
-    [79546208627805] = "https://raw.githubusercontent.com/bleh2rich/99NightsInTheForest/refs/heads/main/Loader.lua",
-    [310798636] = "https://raw.githubusercontent.com/bleh2rich/ATN/refs/heads/main/ATNWattyHub.lua"
+    [126509999114328] = "https://raw.githubusercontent.com/bleh2rich/99NightsInTheForest/refs/heads/main/Loader.lua", -- 99 nights
+    [79546208627805] = "https://raw.githubusercontent.com/bleh2rich/99NightsInTheForest/refs/heads/main/Loader.lua", -- 99 nights
+    [1962086868] = "https://api.luarmor.net/files/v3/loaders/a54008b9af4374de01404ad5de499ca8.lua", -- Tower Of Hell
+    [3582763398] = "https://api.luarmor.net/files/v3/loaders/a54008b9af4374de01404ad5de499ca8.lua", -- Tower Of Hell
+    [94971861814985] = "https://api.luarmor.net/files/v3/loaders/a54008b9af4374de01404ad5de499ca8.lua", -- Tower Of Hell
+    [310798636] = "https://raw.githubusercontent.com/bleh2rich/ATN/refs/heads/main/ATNWattyHub.lua" -- A Typical Neighborhood
 }
 
 local scriptUrl = gameConfigurations[currentPlaceId]
