@@ -188,6 +188,7 @@ local gameConfigurations = {
     [1962086868] = "https://api.luarmor.net/files/v3/loaders/a54008b9af4374de01404ad5de499ca8.lua", -- Tower Of Hell
     [3582763398] = "https://api.luarmor.net/files/v3/loaders/a54008b9af4374de01404ad5de499ca8.lua", -- Tower Of Hell
     [94971861814985] = "https://api.luarmor.net/files/v3/loaders/a54008b9af4374de01404ad5de499ca8.lua", -- Tower Of Hell
+    [18687417158] = "https://api.luarmor.net/files/v3/loaders/36b499658b15d7a1bbc09cc052280409.lua", -- Forsaken
     [310798636] = "https://raw.githubusercontent.com/bleh2rich/ATN/refs/heads/main/ATNWattyHub.lua" -- A Typical Neighborhood
 }
 
